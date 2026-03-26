@@ -2,7 +2,7 @@ services:
   - type: web
     name: cat-detector
     runtime: python
-    buildCommand: pip install -r requirements.txt && python train.py --augment --aug-factor 4 --iters 2000
+    buildCommand: pip install -r requirements.txt && python train.py --iters 2000
     startCommand: streamlit run app.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
     envVars:
       - key: PYTHON_VERSION
