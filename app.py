@@ -1,10 +1,3 @@
-"""
-app.py  –  Cat vs Non-Cat Detector
-===================================
-Run with:
-    streamlit run app.py
-"""
-
 import os
 import numpy as np
 import streamlit as st
