@@ -35,7 +35,7 @@
 
 ## 🌟 Aperçu
 
-**Cat Detector** is a logistic regression classifier that detects cats in images, built with a Neural Network mindset. It includes a **Streamlit** web application and a **data augmentation** pipeline to boost training accuracy.
+**Cat Detector** is a logistic regression classifier that detects cats in images, built with a Neural Network mindset. It includes a **Streamlit** web application.
 
 > 🔗 **Live Demo:** [cat-detector-tit1.onrender.com](https://cat-detector-tit1.onrender.com)
 
@@ -49,7 +49,7 @@ Head directly to **[cat-detector-tit1.onrender.com](https://cat-detector-tit1.on
 
 #### 1 – Clone & install
 ```bash
-git clone https://github.com/<your-username>/cat-detector.git
+git clone https://github.com/fechetahmakhlouf/cat-detector.git
 cd cat-detector
 pip install -r requirements.txt
 ```
